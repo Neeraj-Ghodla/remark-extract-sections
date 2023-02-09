@@ -1,0 +1,39 @@
+{
+  "name": "remark-extract-sections",
+  "version": "0.1.0",
+  "description": "Remark plugin to extract sections while processing markdown files",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neeraj-Ghodla/remark-extract-sections.git"
+  },
+  "author": "Neeraj Ghodla",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Neeraj-Ghodla/remark-extract-sections/issues"
+  },
+  "homepage": "https://github.com/Neeraj-Ghodla/remark-extract-sections#readme",
+  "devDependencies": {
+    "remark-html": "^15.0.2",
+    "remark-parse": "^10.0.1",
+    "remark-sectionize": "^1.1.1",
+    "remark-stringify": "^10.0.2",
+    "tsc": "^2.0.4",
+    "typescript": "^4.9.5",
+    "unified": "^10.1.2",
+    "unist-util-is": "^5.2.0",
+    "vite": "^4.1.1",
+    "vitest": "^0.28.4"
+  },
+  "dependencies": {
+    "mdast-util-to-string": "^3.1.1",
+    "unist-util-visit": "^4.1.2"
+  },
+  "engines": {
+    "node": "18.x.x"
+  }
+}
